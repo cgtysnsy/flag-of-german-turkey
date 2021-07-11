@@ -1,0 +1,50 @@
+.body {
+  min-width: 310px;
+}
+.hole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+
+  flex-wrap: wrap;
+}
+.german-flag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.german-flag-frame {
+  min-height: 200px;
+}
+.g-flag-link {
+  text-decoration: none;
+  border: 2px solid black;
+  font-family: Verdana, sans-serif;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.turkish-flag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.turkish-flag-frame {
+  min-height: 200px;
+}
+.t-flag-link {
+  text-decoration: none;
+  border: 2px solid black;
+  font-family: Verdana, sans-serif;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 10px;
+}
